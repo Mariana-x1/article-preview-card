@@ -30,12 +30,21 @@ main {
   gap: var(--s-large);
 }
 
+h2 {
+  margin-top: var(--s-large);
+}
+
 .preview-card {
   border: 2px solid var(--clr-black);
   box-shadow: 2px 2px var(--clr-accent);
   padding: var(--s-large);
   border-radius: var(--s-radius-outer);
   max-width: 400px;
+}
+
+.preview-text {
+  color: var(--clr-black);
+  line-height: 1.5;
 }
 
 .image-container {
@@ -57,7 +66,7 @@ main {
 .article-text {
   color: grey;
   font-size: small;
-  line-height: 1.5;
+  /* line-height: 1.5; */
 }
 
 .avater {
@@ -86,4 +95,18 @@ main {
   border: 2px solid lightblue;
   border-radius: 50px;
   font-size: small;
+}
+
+button {
+  background-color: var(--clr-accent);
+  color: var(--clr-white);
+  padding: 4px 6px;
+  border: 3px solid var(--clr-accent);
+  border-radius: var(--s-radius-inner);
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: var(--clr-white);
+  color: var(--clr-accent);
 }
