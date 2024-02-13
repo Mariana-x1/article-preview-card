@@ -44,3 +44,29 @@ main {
   object-fit: cover;
   object-position: bottom;
 }
+
+.article-notiz {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5rem;
+  margin-top: var(--s-base);
+}
+
+.article-text {
+  color: grey;
+  font-size: small;
+  line-height: 1.5;
+}
+
+.avater {
+  display: flex;
+  align-items: center;
+  gap: var(--s-base);
+}
+
+.avater img {
+  height: var(--s-large);
+  border: var(--s-border) solid var(--clr-accent);
+  border-radius: 5px;
+}
