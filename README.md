@@ -2,4 +2,4 @@
 
 ---
 
-![imagges](images/article%20preview%20card.png)
+![imagges](images/article-preview-card.png)
