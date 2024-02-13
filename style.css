@@ -7,8 +7,10 @@
 :root {
   --clr-accent: darkslateblue;
   --clr-white: white;
+  --clr-black: black;
 
   --s-base: 1rem;
+  --s-large: calc(var(--s-base) * 2);
   --s-border: 0.125rem;
   --s-radius-outer: 0.75rem;
   --s-radius-inner: calc(var(--s-radius-outer) / 3);
@@ -20,4 +22,17 @@ html {
 
 body {
   margin: 2rem;
+}
+
+main {
+  display: flex;
+  gap: var(--s-large);
+}
+
+.preview-card {
+  border: 2px solid var(--clr-black);
+  box-shadow: 2px 2px var(--clr-accent);
+  padding: var(--s-large);
+  border-radius: var(--s-radius-outer);
+  max-width: 400px;
 }
