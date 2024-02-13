@@ -10,6 +10,7 @@
   --clr-black: black;
 
   --s-base: 1rem;
+  --s-small: calc(var(--s-base) / 2);
   --s-large: calc(var(--s-base) * 2);
   --s-border: 0.125rem;
   --s-radius-outer: 0.75rem;
@@ -69,4 +70,20 @@ main {
   height: var(--s-large);
   border: var(--s-border) solid var(--clr-accent);
   border-radius: 5px;
+}
+
+.article2 {
+  display: flex;
+  align-items: center;
+  margin-top: var(--s-base);
+  gap: var(--s-small);
+}
+
+.article2-text {
+  background-color: lightblue;
+  padding: 4px 10px;
+  margin: 0;
+  border: 2px solid lightblue;
+  border-radius: 50px;
+  font-size: small;
 }
