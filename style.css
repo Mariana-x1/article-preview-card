@@ -42,6 +42,10 @@ h2 {
   max-width: 400px;
 }
 
+.preview-card.orange {
+  --clr-accent: darkorange;
+}
+
 .preview-text {
   color: var(--clr-black);
   line-height: 1.5;
@@ -78,7 +82,7 @@ h2 {
 .avater img {
   height: var(--s-large);
   border: var(--s-border) solid var(--clr-accent);
-  border-radius: 5px;
+  border-radius: 50px;
 }
 
 .article2 {
